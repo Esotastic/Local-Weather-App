@@ -1,0 +1,44 @@
+body {
+  background-image: url("http://lightersideofrealestate.com/wp-content/uploads/2014/09/clouds-background-light.jpg");
+}
+
+.page-main {
+  font-family: Cabin;
+  padding-top: 30px;
+}
+
+.top-bar {
+  text-align: center;
+  font-size: 25px;
+}
+
+#location-bar {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.temperatureToggle {
+  font-size: 35px;
+}
+
+.temp-cond-box {
+  text-align: center;
+  font-size: 25px;
+}
+
+#tempToggle {
+  font-family: Cabin;
+  padding: 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.footer-bar {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10px;
+}

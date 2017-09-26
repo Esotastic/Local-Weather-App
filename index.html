@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!--Background, fonts and body-->
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<div class="container page-main">
+  <div id="background-img">
+    
+    <!--Header and location-->
+    <div class="top-bar">
+      <p>The weather in</p>
+    </div>
+    <div id="location-bar">
+    </div>
+
+    <!--Temperature -->
+    <div class="temp-cond-box">
+      <div class="temp-header col-xs-6">
+        <p>Temperature</p>
+
+        <div class="temperatureToggle" id="current-temp-cels">
+        </div>
+        <div class="temperatureToggle" id="current-temp-far" style="display:none;">
+        </div>
+        <button id='tempToggle'>F - C </button>
+      </div>
+
+      <!--Conditions -->
+      <div class="cond-header col-xs-6">
+        <p>Conditions</p>
+      </div>
+      <div id="current-cond-icon">
+      </div>
+      <div id="current-cond-text">
+      </div>
+    </div>
+
+  </div>
+  <!-- Footer -->
+
+  <div class="footer-bar">
+  <p>Code by Chris Jimenez. Layout Inspiration by Mike Juliano</p>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
